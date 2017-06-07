@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300');
+@import url('https://fonts.googleapis.com/css?family=Lato:900');
+
+
+ 
+
+.nav_margin_left {
+    margin-left: 30px;
+    padding-left : 10px;
+    /*padding-top: 10px;*/
+}
+
+nav ul li:hover {
+   background-color: white;
+   
+}
+
+
+nav ul li a:hover {
+   color : black;
+   
+} 
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+
+
+
+.video_overlays {
+position:absolute;
+float:left;
+    width:100%;
+    min-height:100%;
+    background-color:rgba(0,0,0,0.5);
+    z-index:300000;
+}
+    
+
+
+
+.parallax-container {
+  min-height: 600px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.card_container{
+    padding : 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* --------- CARDS  CSS  ----------*/
+
+
+.card-container {
+   
+  margin-top: 10px;
+ 
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  /*border-radius: 5px;*/
+ 
+  font-family: 'Quicksand', sans-serif;
+  color: #212121;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);   
+  transition: all 0.5s;
+}
+
+.card-heading {
+  /*border-radius: 5px 5px 0px 0px;*/
+  display: block;
+  margin: 0;
+  background-color: pink;
+  text-transform: uppercase;
+  font-size: 25px; 
+  text-align: left;
+  padding: 1px 20px;
+  line-height: 1em;
+  font-weight: 300;
+}
+
+.card-heading span {
+  font-weight: 600;
+}
+
+.img-container {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  
+    width:  100%;
+    height: 200px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+
+.card-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  
+}
+
+.card-footer {
+  margin: 0;
+  background-color: pink;
+  display: block;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+  height:60px;
+  /*border-radius: 0px 0px 5px 5px;*/
+}
+
+
+
+
+.card-container:hover {
+   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+/*---------  Animate cards on hover ------*/
+
+
+
+ 
+
+/* ------- END card css ----------*/
+
+
+
+/* Custom styles for elements in parallax */
+
+.panel2{
+    
+    letter-spacing: 2px;
+    font-size: 3.50rem;
+    color:#eceff1;
+    
+} 
+
+
+
+.round-trans-button {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 20px;
+    border: 3px solid white;
+    border-radius: 50px;
+    text-decoration: none;
+    color : white;
+    font-size: 1em;
+    font-weight: 400;
+    transition:all 0.2s; 
+     
+} 
+ 
+.round-trans-button svg{
+    fill: rgb(255,255,255);
+}
+
+
+
+#svg_white {
+    color:white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 20px;
+    border: 3px solid white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 400;
+    transition:all 0.2s; 
+}
+
+
+
+
+#svg_white svg{
+    fill: rgb(255,255,255);
+}
+
+
+
+
+
+.img_filter1 img {
+    filter:brightness(50%);
+}
+
+
+.forest_div p{
+  line-height: 2em;    
+}
+
+
+.forest_div h3{
+  font-weight: 700;    
+  letter-spacing: 2px;
+}
+
+
+
+
+footer .logo {
+    font-size: 2em;
+}
+
+
+
+
+/* ----------   Testimonial style ---------*/
+
+
+
+.testimonial_image img{
+  width : 100px;
+  height : auto;
+}
+
+.testimonial_name {
+margin-top : 30px;
+color : #263238 ;
+font-family: 'Lato', sans-serif;
+letter-spacing : 0.20em;
+font-size:25px;
+text-transform : uppercase;
+
+}
+
+
+.testimonial_text {
+  color : #bdbdbd;
+  font-size : 1em;
+  font-style : italic;
+}
+
+
+
+
+
+/* ------------ END  Testimonial style -------*/
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
